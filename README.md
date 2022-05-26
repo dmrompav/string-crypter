@@ -28,7 +28,7 @@ console.log(decrypted);
 - **encrypt**( *key*, *text* ) // @return { String }
 - **decrypt**( *key*, *string* ) // @return { String }
 
-> **`KEY`** length shouldn't be more than `TEXT` string. Key's extra length is useless, but that is not crytical. If you are using KEY of just one symbol - it will be the "Cesar cipher".
+> **`KEY`** length shouldn't be more than `TEXT` string. Key's extra length is useless, but that is not crytical. If you are using KEY of just one symbol - it will be the "Caesar cipher".
 
 ## Text/key symbols that are supported
 **EN**  

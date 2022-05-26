@@ -1,12 +1,12 @@
 {
-  "name": "encrypter",
+  "name": "string-crypter",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert your text to encrypted string or decrypt it",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["encrypt", "decrypt", "string-crypter", "sipher"],
+  "author": "dm.rom.pav@gmail.com",
   "license": "ISC"
 }
