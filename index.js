@@ -1,4 +1,4 @@
-const map = require('./map.json');
+import map from './map.json';
 
 function mapCheck (letter) {
   let value;
@@ -67,7 +67,7 @@ function decrypt (key) {
   }
 };
 
-module.exports = {
+export default {
   encrypt,
   decrypt
 };

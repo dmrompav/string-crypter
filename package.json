@@ -1,5 +1,6 @@
 {
   "name": "string-crypter",
+  "type": "module",
   "version": "1.0.0",
   "description": "Convert your text to encrypted string or decrypt it",
   "main": "index.js",

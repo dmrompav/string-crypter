@@ -16,11 +16,9 @@ const key = 'Phrase I will never forget';
 const text = 'Hello string-crypter!';
 
 const encrypted = encrypt(key)(text);
-console.log(encrypted);
 // "wmdmh0TCSfws3DfdlywS="
 
 const decrypted = decrypt(key)(encrypted);
-console.log(decrypted);
 // "Hello string-crypter!"
 ```
 
@@ -28,9 +26,9 @@ console.log(decrypted);
 - **encrypt**( *key*, *text* ) // @return { String }
 - **decrypt**( *key*, *string* ) // @return { String }
 
-> **`KEY`** length shouldn't be more than `TEXT` string. Key's extra length is useless, but that is not crytical. If you are using KEY of just one symbol - it will be the "Caesar cipher".
+> The bigger KEY you use, the safer cipher you get. KEY length shouldn't be more than TEXT length, cause KEY's extra length is useless, but that is not crytical. If you are using KEY of just one letter - it will be the "Caesar cipher").
 
-## Text/key symbols that are supported
+## Text/key symbols that are available
 **EN**  
 Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz  
 **RU**  
